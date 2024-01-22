@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar
+{
+    background-color: rgb(174, 174, 174);
+    font-family: 'Fira Sans', sans-serif;
+    width: 225px;
+    height: 100vh;
+}
+
+.sidebar nav
+{
+    padding: 45px;
+}
+
+.sidebar nav li
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style: none;
+    font-size: 30px;
+}
+
+.sidebar nav li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.main
+{
+    /* background-color: yellow; */
+    width: 80%;
+    height: 100vh;
+}
+
+.container
+{
+    display: flex;
+}
+
+.infoContainer
+{
+    width: 70vw;
+    height: 70vh;
+    /* background-color: green; */
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello 
+{
+    font-size: 45px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.name
+{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about
+{
+    font-size: 33px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.moreAbout
+{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.btn
+{
+    margin-top: 35px;
+    padding: 15px 36px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(70, 130, 187);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background-color: white;
+    color: rgb(70, 130, 187);
+}
+
+.devPic img
+{
+    height: 70vh;
+    width: 270px;
+}
+
+.contactForm
+{
+    padding: 0 25px;
+    margin-top: 100px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+}
+
+.contactForm h1
+{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    padding: 12px 0;
+}
+
+.contactForm form div
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.contactForm form div input
+{
+    width: 40vw;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#emailHelp
+{
+    font-size: 14px;
+    color: magenta;
+    margin: 0 20px;   
+    padding: 3px 0 0 0;
+}
+
+#form-check
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#form-check input
+{
+    width: 50px;
+    padding: 100px 100px;
+}
+
+.btn-sm
+{
+    margin-top: 35px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(70, 130, 187);
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.btn-sm:hover
+{
+    background-color: white;
+    color: rgb(70, 130, 187);
+}
+
+.blogItem
+{
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.blogContainer h1
+{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.blogItem h2
+{
+    padding: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+
+.blogItem p
+{
+    font-family: 'Fira Sans', sans-serif;
+    box-shadow: 0px 0px 10px 0px rgba(163, 104, 104, 0.75);
+}
+
+.introContainer
+{
+    
+}
+
+.introInfo
+{
+
+}
