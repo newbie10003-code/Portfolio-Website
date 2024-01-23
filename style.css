@@ -11,8 +11,9 @@
 {
     background-color: rgb(174, 174, 174);
     font-family: 'Fira Sans', sans-serif;
-    width: 225px;
     height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
 }
 
 .sidebar nav
@@ -38,6 +39,7 @@
 {
     /* background-color: yellow; */
     width: 80%;
+    padding: 20px;
     height: 100vh;
 }
 
@@ -54,6 +56,7 @@
     margin: 100px auto;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .devInfo
@@ -116,7 +119,7 @@
 .contactForm
 {
     padding: 0 25px;
-    margin-top: 100px;
+    margin-top: 50px;
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
 }
@@ -188,31 +191,119 @@
     padding: 10px;
 }
 
-.blogContainer h1
+h1
 {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
 
-.blogItem h2
+h2
 {
     padding: 20px;
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
 }
 
-.blogItem p
+p
 {
     font-family: 'Fira Sans', sans-serif;
-    box-shadow: 0px 0px 10px 0px rgba(163, 104, 104, 0.75);
+    text-align: center;
 }
 
-.introContainer
+.intro h2
 {
-    
+    padding: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    margin: 20px;
 }
 
-.introInfo
+.intro p
 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
 
+.skillItem
+{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+}
+
+.skill
+{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(70, 130, 187);
+    border-radius: 10px;
+}
+
+.skillContainer
+{
+    margin: 0px 20px;
+}
+
+.hundred
+{
+    width: 500px;
+}
+
+.fifty
+{
+    width: 250px;
+    border: 1px solid black;
+    background-color: sandybrown;
+}
+
+.twentyfive
+{
+    border: 1px solid black;
+    width: 125px;
+    background-color: sandybrown;    
+}
+
+.seventyfive
+{
+    width: 375px;
+}
+
+.sidebarGo
+{
+    transform: translate(-300px, 0px);
+    position: absolute;
+}
+
+.hamburger
+{
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 5px;
+}
+
+.ham
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross
+{
+    margin-left: 225px;
+    margin-top: 3px;
+    position: absolute;
+}
+
+@media (max-width: 1540px)
+{
+    *
+    {
+        /* background-color: red;    */
+    }
+    .devPic
+    {
+        display: none;
+    }
 }

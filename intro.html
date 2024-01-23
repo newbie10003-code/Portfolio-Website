@@ -1,37 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nilesh Bhanot - Programmer, ML Enthusiast, Web Developer</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class = "sidebar">
-                <nav>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/intro.html">Introduction</a></li>
-                        <li><a href="/services.html">Sevices</a></li>
-                        <li><a href="/blog.html">Blog</a></li>
-                        <li><a href="/contact.html">Contact Me</a></li>
-                    </ul>
-                </nav>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilesh Bhanot - Programmer, ML Enthusiast, Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html" target="_blank">Introduction</a></li>
+                    <li><a href="/services.html" target="_blank">Sevices</a></li>
+                    <li><a href="/blog.html" target="_blank">Blog</a></li>
+                    <li><a href="/contact.html" target="_blank">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="Hamburger Menu" width = 23px>
+                <img class="cross" src="cross.png" alt="Close Menu" width = 23px>
             </div>
-    
-            <div class="main">
-                <div class="introContainer">
-                    <div class="introInfo">
-                        <h1>About Me</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat veritatis aliquam similique facere, cupiditate culpa ab repellat quia deleniti nesciunt? Reiciendis, mollitia hic tempore, fugit sequi similique voluptate ad possimus laudantium est vero quasi beatae quidem exercitationem, officiis modi soluta! Nisi modi ex quibusdam, iure culpa pariatur provident officiis itaque nostrum dolor corporis natus error nemo veritatis consequatur cupiditate obcaecati impedit ab hic? Est consectetur eius, iure nisi nam id ullam quos nihil sint quibusdam deleniti sequi esse, saepe natus! Nostrum esse cupiditate corporis ab officiis, officia, consectetur facilis accusantium tempore repellat temporibus alias molestias sapiente perspiciatis vel velit culpa?</p>
-                    </div>
-                    <div class="devPic">
-                        <img src="Dev.png" alt="Nilesh Bhanot">
-                    </div>
+            <div class="intro">
+                <h2>About Me</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat veritatis aliquam similique facere,
+                    cupiditate culpa ab repellat quia deleniti nesciunt? Reiciendis, mollitia hic tempore, fugit sequi
+                    similique voluptate ad possimus laudantium est vero quasi beatae quidem exercitationem, officiis modi
+                    soluta! Nisi modi ex quibusdam, iure culpa pariatur provident officiis itaque nostrum dolor corporis
+                    natus error nemo veritatis consequatur cupiditate obcaecati impedit ab hic? Est consectetur eius, iure
+                    nisi nam id ullam quos nihil sint quibusdam deleniti sequi esse, saepe natus! Nostrum esse cupiditate
+                    corporis ab officiis, officia, consectetur facilis accusantium tempore repellat temporibus alias
+                    molestias sapiente perspiciatis vel velit culpa?
+                </p>
+                <h2>My Skills</h2>
+                <div class="skillContainer">
+                    <div class="skillItem">HTML: <div class="skill fifty"></div></div>
+                    <div class="skillItem">CSS: <div class="skill twentyfive"></div></div>
+                    <div class="skillItem">JS: <div class="skill"></div></div>
+                    <div class="skillItem">Python: <div class="skill"></div></div>
+                    <div class="skillItem">ML: <div class="skill"></div></div>
                 </div>
+                <!-- Create a gallery for all my projects -->
             </div>
         </div>
-    </body>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
