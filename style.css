@@ -119,7 +119,7 @@
 .contactForm
 {
     padding: 0 25px;
-    margin-top: 50px;
+    margin-left: 100px;
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
 }
@@ -208,6 +208,11 @@ p
 {
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
+}
+
+.intro
+{
+    margin: 0 100px;
 }
 
 .intro h2
