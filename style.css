@@ -68,28 +68,34 @@
 
 .hello 
 {
-    font-size: 45px;
+    font-size: 2em;
     font-family: 'Roboto Mono', monospace;
 }
 
 .name
 {
-    font-size: 55px;
+    font-size: 3em;
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
 }
 
 .about
 {
-    font-size: 33px;
+    font-size: 1.5em;
     font-family: 'Roboto Mono', monospace;
 }
 
 .moreAbout
 {
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 1.5em;
     font-family: 'Roboto Mono', monospace;
+}
+
+.buttons
+{
+    margin-top: 2em;
+    font-size: 15px;
 }
 
 .btn
@@ -98,16 +104,16 @@
     padding: 15px 36px;
     border-radius: 50px;
     color: white;
-    background-color: rgb(70, 130, 187);
+    background-color: rgb(102, 168, 230);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5em;
     cursor: pointer;
 }
 
 .btn:hover
 {
     background-color: white;
-    color: rgb(70, 130, 187);
+    color: rgb(102, 168, 230);
 }
 
 .devPic img
@@ -140,10 +146,15 @@
 
 .contactForm form div input
 {
-    width: 40vw;
+    /* width: 40vw; */
     margin: 5px 0;
     border-radius: 5px;
     padding: 3px;
+}
+
+.contactForm form
+{
+    margin: 0 20px;
 }
 
 #emailHelp
@@ -174,7 +185,7 @@
     color: white;
     background-color: rgb(70, 130, 187);
     font-weight: bold;
-    font-size: 10px;
+    font-size: 1em;
     cursor: pointer;
 }
 
@@ -307,8 +318,20 @@ p
     {
         /* background-color: red;    */
     }
+    .devInfo
+    {
+        font-size: 10px;
+    }
     .devPic
     {
         display: none;
+    }
+    .intro, .blogContainer, .contactForm
+    {
+        margin: 50px 8px;
+    }
+    .buttons
+    {
+        font-size: 10px;
     }
 }
