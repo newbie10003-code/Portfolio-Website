@@ -335,3 +335,11 @@ p
         font-size: 10px;
     }
 }
+
+.projects
+{
+    display: flex;
+    padding: 30px;
+    font-size: large;
+    font-weight: bold;
+}
